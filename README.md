@@ -1,7 +1,7 @@
 # fluttertube
 
 Aplicativo que consiste na interface do Youtube com busca de vídeos por temáticas. Além de
-uma lista com diversas opções de vídeos por lista.
+uma lista com diversas opções de vídeos em sequência.
 
 ## Getting Started
 
