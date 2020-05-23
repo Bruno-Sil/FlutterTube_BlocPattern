@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttertube/delegates/data_search.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Container(
           height: 25,
-          child: Image.asset("images/yt_log_rgb_dark.png"),
+          child: Image.asset("images/yt_logo_rgb_dark.png"),
         ),
         elevation: 0,
         backgroundColor: Colors.black87,
@@ -25,7 +26,7 @@ class Home extends StatelessWidget {
            IconButton(
             icon: Icon(Icons.search),
             onPressed: () {
-
+              showSearch(context: context, delegate: DataSearch());
             },
            ),
         ],
