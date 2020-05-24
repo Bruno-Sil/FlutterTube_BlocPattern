@@ -18,6 +18,4 @@ factory Video.fromJson(Map<String, dynamic> json) {
 
 }
 
-
-
 }

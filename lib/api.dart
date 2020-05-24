@@ -21,7 +21,8 @@ class Api {
 
      var decoded = json.decode(response.body);
 
-     List<Video> videos = decoded["itens"].map<Video>(
+     List<Video> videos = decoded["itens"].
+     map<Video>(
          (map) {
          return Video.fromJson(map);
        }
